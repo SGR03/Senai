@@ -1,4 +1,5 @@
 # Senai
-Repositório criado com o intuíto de fazer anotaçôes do curso Redes de Computadores 
 
-![](https://informatica.sp.senai.br/galeriaimagens/imageviewer.ashx?Url=68361)
+Repositório criado com o intuíto de fazer anotações do curso Redes de Computadores 
+
+![image](https://informatica.sp.senai.br/galeriaimagens/imageviewer.ashx?Url=68361)
