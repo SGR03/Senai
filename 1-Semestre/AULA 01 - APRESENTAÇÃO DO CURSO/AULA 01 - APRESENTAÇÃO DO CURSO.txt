@@ -1,0 +1,31 @@
+AULA 01 - APRESENTAÇÃO DO CURSO
+
+O que um profissional em redes de computadores faz?
+
+    Infraestrutura:
+        -Elabora e implanta projetos de rede e cabeamento
+        -Instala, configura, testa e realiza manutenções preventivas e corretivas no dispositivos da rede
+        -Documentação e identificação dos componentes da rede
+
+    Serviços de Rede:
+        -Instalação, configuração de sistemas operacionais para servidores
+        -Instalação e gerenciamento de serviços como:
+            * Hospedagem de sites e sistemas
+            * Banco de Dados
+            * Armazenamento de arquivos
+            * Serviço de e-mail
+    
+    Segurança:
+        -Assegurar que a rede esteja livre de invasores ou softwares mal intencionados
+        -Detectar e corrigir possíveis falhas de segurança
+        -Proteger informações armazenadas ou que são transmitidas na rede
+        -Monitorar atividades na rede
+
+    Cloud:
+        -Instala e gerencia aplicações e serviços de rede na nuvem
+        - Monitora o uso e disponibilidade de aplicações e serviços
+        -Automatiza processos e atividades no ambiente da nuvem
+    
+    IoT: 
+        -Projetar dispositivos e protótipos para possibilitar a comunicação de equipamentos à internet
+        -Gerenciar sistemas embarcados para a automatização e monitoramento de atividades e processos
