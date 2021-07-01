@@ -1,0 +1,42 @@
+Dispositivos Finais 
+
+    -Um dispositivo final é a origem ou o destino de uma mensagem transmitida pela rede
+    -Para distinguir um dispositivo final de outro, cada dispositivo final em uma rede tem um endereço
+
+Dispositivos Intermediários 
+
+    -Dispositivos intermediários conectam os dispositivos finais individuais à rede.
+    -Eles podem conectar várias redes individuais para formar uma internetwork 
+        
+Dispositivos Finais 
+
+    -Regenerar e retransmitir os sinais de comunicação
+    -Escolher o melhor caminho para a informação
+    -Classificar e direcionar as mensagens
+    -Permitir ou negar o fluxo de dados, com base em configurações de segurança
+
+Conhecendo o Switch
+
+    -Também chamado de comutador (comutar=trocar)
+    -Tem como função possibilitar a comunicação entre os dispositivos que estão conectados a ele 
+    -Diferente da coneção ponto-a-ponto, com o switch podemos conectar vários dispositivos, que poderão conversar entre si
+    
+Tipos de Switch
+
+    -Doméstico
+        normalmente tem um número menor de interfaces (entre 4-8 interfaces)
+    -Enpresariais 
+        tem um número maior de interfaces (24-48 interfaces) e conseguem lidar com uma quantidade maior de dados 
+
+Componentes Físicos do Switch
+
+    -Um switch empresarial é bem parecido com um computador
+    -Eles tem CPU, Memória RAM, Armazenamento Interno (memórias Flash, NVRAM)
+    -Também necessitam de cuidados quanto a aquecimento e temperamento ambiente 
+    -O switch que vamos utilizar ao longo do curso, será o CISCO Catalyst 2960
+    OBS: Esse switch tem 26 interfaces FastEthernet e 2 interfaces GigabitEthernet
+    -Botão mode: Utilizado para se realizar diagnósticos no Switch e se pressionado da maneira correta, pode-se fazer o reset do equipamento para as configurações de Fábrica
+    -Entrada console:Utilizada para realizar a conexão do cabo Rollover, para realização das configurações do Switch
+    -Entrada de cabo de energia 
+    -Entrada para fonte de energia remota
+    
