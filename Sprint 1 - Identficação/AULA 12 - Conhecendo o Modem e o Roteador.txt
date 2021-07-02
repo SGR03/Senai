@@ -1,0 +1,59 @@
+Conhecendo o Modem 
+    
+    -O nome do modem vem da junção das palavras Modulador-Demodulador 
+    -O modem server para modular (codificar) um sinal para ser enviado por um certo meio físico (metálico, óptico, rádio e etc) e demodular (decodificar) esse sinal para ser utiizado pelos dispositivos 
+    -O modem deve ser compatívell com o meio físico por onde o sinal será transmitido 
+    -Por conta disso, um modem projetado para um meio físico não é compatível com outro meio físico 
+        tipos de modem: Coaxial e Fibra óptica
+
+Conhecendo o Roteador 
+
+    -O roteador juntamente com o switch é um dos mais importante componentes de uma rede
+    -O roteador tem duas funções básicas 
+        1)Conectar redes diferentes
+        2)Escolher o melhor caminho para a entrega dos dados
+    -Tipos de roteadores 
+        -Doméstico = são empregados em nossas casas com antenas Wireless, o que facilita a conexão de dispositivos compatíveis
+        -Empresariais = tem uma arquitetura muito próxima a de um computador, com CPU, Memória RAM, Armazenamento Internet e Externo (através de cartões de memória)
+
+Componentes Físicos do Roteador 
+
+    -O Roteador que vamos mais utilizar durante o curso será o CISCO 1941
+    -Esse Roteador tem 2 Interfaces GigabitEthernet e 3 baias para placas de expansão
+    -Interfaces GigabitEthernet
+    -Conexões USB (usado para conexão de armazenamento externo)
+    -Entrada Console (pode-se usar o cabo Rollover ou o cabo USB com conector Mini-B)
+    -Entrada Auxiliar, utilizada para acesso remoto através de conexão discada
+    
+Rede empresárial:
+
+Modem -----------> Internet
+  ^
+  |
+  |
+Router
+  ^
+  |
+  |
+switch
+  ^
+  |
+  |
+Computador 
+
+Roteador de casa:
+
+    -O Roteador que temos em casa é um híbrido, ele faz a função de Modem, Roteador, Switch; tudo no mesmo equipamento.
+    -Por conta disso, ele não tem um desepenho muito alto, sendo recomendado para ambientes Doméstico
+
+Rede doméstica:
+
+Modem -----------> Internet                                  Internet
+  ^                                                             ^
+  |                                    ou                       |
+  |                                                             |
+Router/Switch                                            Router/Switch/Modem
+        ^                                                       ^
+        |                                                       |
+        |                                                       |
+    Computador                                              Computador

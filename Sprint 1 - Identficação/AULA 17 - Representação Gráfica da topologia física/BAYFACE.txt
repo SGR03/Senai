@@ -1,0 +1,5 @@
+Bayface 
+    -Forma de representação gráfica de um rack de rede, onde se destaca o posicionamento do equipamento no rack
+    -Pode-se utilizar diversos software para se realizar a montagem de uma bayface, como por exemplo:
+        Microsolft Visio e o Draw.io
+        
