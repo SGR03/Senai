@@ -1,0 +1,41 @@
+Modelo OSI – Camada de Enlace
+
+    -Permite que as camadas superiores acessem a mídia, mas esse protocolo de camada superior não está ciente do tipo de mídia que é usado para encaminhar os dados.
+    -Controla como os dados são colocados e recebidos na mídia
+    -Executa a detecção de erros e rejeita qualquer quadro corrompido
+
+camada 2: Enlace de dados = camada que prepara os dados de rede para a rede física 
+
+Half-Duplex x Full Duplex
+
+    -Na comunicação half-duplex não é possível transmitir e receber mensagens ao mesmo tempo
+        exemplo:sistema de radiocomunicação
+    -Os sistemas de comunicação full duplex são capazes de receber e transmitir simultaneamente
+        exemplo:Serviço telefonico
+
+Endereço MAC
+
+    -O endereço MAC (Media Access Control) é uma identificação física, que vem gravada no chip de toda interface de rede
+    -O endereço MAC não consegue ser alterado e todo os computadores tem um endereço MAC próprio
+    -Ele é representado por 12 valores hexadecimais 
+
+exemplos:
+1)9C-30-5B-FC-51-27 (WINDOWS)
+2)9C:30:5B:FC:51:27 (LINUX)
+3)9C30.5BFC.5127 (CISCO)
+
+Endereço MAC - Unicast
+    
+    - Comunicação na qual um quadro é enviado de um host e endereçado a um destino específico. Na transmissão unicast, há apenas um remetente e um receptor
+
+Endereço MAC - Broadcast
+
+    -Possui um endereço MAC de destino de FF-FF-FF-FF-FF-FF em hexadecimal
+    -É inundada todas as portas de switch Ethernet, exceto a porta de entrada.
+    -Ele não é encaminhado por um roteador.
+    -Comunicação na qual um quadro é enviado de um endereço para todos os outros endereços.
+
+Endereço MAC - Multicast
+
+    -Ele não é encaminhado por um roteador, a menos que o roteador esteja configurado para rotear pacotes multicast.
+    -Comunicação na qual um quadro é enviado para um grupo específico de dispositivos ou clientes. Os clientes da transmissão multicast devem ser membros de um grupo multicast lógico para receber as informações.
