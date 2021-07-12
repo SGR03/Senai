@@ -1,0 +1,30 @@
+Largura de banda (Bandwidth)
+
+    -Largura de banda é a capacidade de um meio de transformar dados.
+    -A largura de banda digital mede a quantidade de dados que podem fluir de um lugar para outro durante um determinado tempo.
+
+Unidades de Largrura de Banda 
+Bits = 1bs ou bps 
+Quilobits = 1kb/s = 10^3
+Megabits = Mb/s = 10^6
+Gigabits = Gbs = 10^9
+Terabits = Tb/s = 10^12
+
+    OBS: ( ^ ) = esse simbolo significa elevado, ou seja, o 10^3, que determina a quantidade de zero 
+    10^3= 1000
+
+Taxa de Transferência (Throughput)
+
+    -Taxa de Transferência é a medida da tranferência de bit através da mídia durante um determinado período
+
+Fatores que influênciam a taxa de transferência 
+
+1)A quanidade de tráfego 
+2)O tipo de tráfego
+3)A latência riada pelo número de dispositivos de rede encontrados entre a origem e o destino
+
+OBS:Latência se refere ao tempo, incluindo atrasos, para os dados viajarem de um determinado ponto a outro 
+
+Bandwidth – Estrangulamento/Gargalo
+    -Em uma rede, a taxa de transferência não pode ser mais rápida do que o link, mesmo se a maioria ou se todos os segmentos tiverem largura de banda alta, basta apenas um segmento do caminho com baixa taxa de transferência para criar um ponto de estrangulamento para a taxa de transferência de toda a rede, ou mias conhecida como Gargalo
+    
