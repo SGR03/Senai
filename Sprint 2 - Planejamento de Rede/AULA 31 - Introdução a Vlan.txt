@@ -1,0 +1,40 @@
+O que é uma VLAN?
+
+    -Técnica utilizada para segmentar um rede, criando  diversos domínios de broadcast “virtuais”, os quais pode ou não estarem fisicamente conectadas em um mesmo dispositivo
+    -trabalha na camada 2 do modelo OSI (enlace)
+    -A idéia da vlan é separar a rede lógicamente, só quem tiver na mesma vlan vai se conversar
+ 
+OBS:Está na mesma vlan, é como se fosse a mesma rede física
+OBS:o arp entende ff-ff-ff-ff-ff-ff
+
+Benefícios 
+
+    -Menor domínio de broadcast 
+    -Segurança
+    -Organização
+    -Redução de custo
+    -Melhor perfomace 
+
+Modos Access e Trunk
+
+    -Existem dois tipos de "modos" quando se trabalha com vlans: Access e Trunk
+
+        Access: interface atrelada a apenas uma vlan
+        Trunk: é possível trafegar pacostes de várias vlans diferentes, normalmente configurada em conexões entre switches
+
+Comandos para Troubleshooting
+
+Exibe as VLANs criadas no dispositivo
+Switch#show vlan brief
+
+Exibir informações sobre uma VLAN expecifica
+Switch#show vlan id [id-da-vlan]
+ou
+Switch#show vlan name [nome-da-vlan]
+
+Exibir um resumo das configurações das VLANs
+Switch#show vlan summary
+
+Exibir informações sobre VLAN em uma
+interface
+Switch#show interfaces [id-da-interface] switchport
