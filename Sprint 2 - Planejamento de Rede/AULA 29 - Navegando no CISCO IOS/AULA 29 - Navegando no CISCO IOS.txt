@@ -1,0 +1,17 @@
+O que é um Sistema Operacional (SO)? 
+
+    -Conjunto de software
+    -Em inglês: Operating System (OS)
+    -Fornece uma interface entre o computador e o usuário
+
+Partes principais de um sistema Operacional
+
+    Shell:interface, tipos: gráfica ou CLI = forma de interagir com o sistema
+    Kernel:núcleo do sistema, como funciona 
+
+Cisco IOS – Método de Acesso
+
+    -Para utilizar a porta console, utiliza-se o cabo Rollover
+    
+*Apresentando o Packet Tracer*
+OBS:simulador de topologias com switch, roteador, computador etc
