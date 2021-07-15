@@ -1,0 +1,48 @@
+A camada de rede é onde o endereço IP está, então todos os dispositivos que têm IP, estão nessa camada
+    -funções:encapsulamento, roteamento, desencapsulamento 
+
+O protocolo IP  
+    -Criado para criar os endereços para os computadores se comunicar
+
+        Caracteristicas:
+            -Sem conexão:Só envia a informação, não quer saber se tem conexão
+            -melhor esforço:sempre pega o melhor caminho, com menos congestionamento e mais rápido
+            -Independente da mídia:Pode funcionar par trançado, fibra óptica etc, ele é muito versátil, pode rodar por vários tipos de meio físico 
+
+Protocolo IP – Independente de Mídia- MTU(Unidade máxima de transmissão)
+    -MTU, manda os bits por pedaços, caso alguma parte do arquivo enviado se perca ou se interrompa, o computador corrige o erro
+    -MTU: Quanto eu consigo mandar por vez no meu meio físico de transmissão
+        transmissão cabeada 1500 Bite/segundo
+        transmissão wireless 1496 Bite/segundo
+OBS: não modifica o MTU do computador
+
+Protocolo IP – Cabeçalho do Protocolo IPv4
+
+    -Versão: IPv4 ou IPv6
+    -Endereço IP origem: endereço unicast
+    -Endereço IP destino: endereço unicast, multicast ou broadcast
+
+TTL: quanto tempo o pacote passa rodando na rede até morrer, se estiver acima de 200 tem alguma coisa errada
+
+Interpretando o Endereço IP
+Sistema decimal: Centena/Dezena/Unidade: tudo usa a base 1
+
+Binário: base 2
+Bit corresponde a menor porção de informação 
+Byte ou Octeto corresponde a uma sequência de 8 bits 
+
+11010101 = 8 bits = 1 Byte
+
+A máscara de rede te mostra se os IPs estão na mesma rede 
+
+192.168.0.0 – 255.255.255.0/24
+        ^ ^              
+        | |-->  HOST - APARTAMENTOS
+REDE-BLOCOS    
+
+A Máscara de Sub-Rede
+
+    -Usada para determinar a parte de rede de um endereço IP.
+    -A sub-redes divide ainda mais a parte de host de um endereço IP em uma sub-rede e um endereço de host
+    -A sub-rede de uma rede IP é separar uma grande rede em redes múltiplas menores para fins de reorganização e segurança
+    
