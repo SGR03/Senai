@@ -1,0 +1,12 @@
+Para que serve o Shell?
+
+    -O Shell é o software que coloca o usuário em contato com o kernel do sistema operacional, através de uma interface gráfica ou de linha de comando. Quando abríamos o prompt do MS-DOS, no Windows, estávamos abrindo um Shell. No caso, a ferramenta era aberta através do famoso arquivo “command.com”, substituído mais tarde pelo “cmd.exe”.
+    -O propósito principal desse tipo de software é a execução de comandos e programas. Porém, funcionalidades adicionais, como a visualização de diretórios ou a execução de scripts, costumam estar disponíveis nos shells. Entre os mais famosos estão o Bourne-again Shell (bash) e o C Shell (csh), ambos disponíveis para sistemas GNU/Linux.
+
+SSH: acesso remoto seguro
+
+    -Para isso surgiu o Telnet, um protocolo que possibilitava uma comunicação bidirecional e interativa entre duas máquinas, através de comandos de textos. Hoje em dia esse protocolo vem sendo substituído pelo SSH, o Secure Shell. A razão principal está logo na primeira letra da sigla: o SSH é mais seguro!
+    -Enquanto o Telnet transmite dados em texto puro, até mesmo senhas, através de uma rede ou da internet, o SSH criptografa os dados trafegados entre os computadores, dificultando assim a interceptação dos mesmos por pessoas mal-intencionadas.
+
+o software gratuito e geralmente utilizado para acesso SSH é o PUTTY
+

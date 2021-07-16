@@ -1,0 +1,13 @@
+Tipos de VLAN
+
+As VLAN pode ser dos seguintes tipos:
+
+    VLAN Padrão:vlan 1, mas não é recomendável usar ela, pois como todo mundo tem acesso, pode ter falha de segurança  
+    VLAN Nativa:vlan onde utiliza na interface trunk
+    VLAN de Dados:qualquer vlan que usa pra trafegar dados na rede, só que essas vlans são dividas em duas
+        -VLANs Normais:uso para pequenas redes - portas range 1 até 1005
+        -VLANs Estendidas:usada para provedores de serviços - porta range 1006 até 4096
+    VLAN de Gerenciamento:vlan de dados reservada para fazer o gerenciamento dos dispositvos da rede, com acesso remoto
+        OBS:é nessa vlan que geralmente é colocado o IP
+    VLAN de Voz:Usada para conectar telefone IP, que usa a rede para fazer ligações (VoIP)
+
