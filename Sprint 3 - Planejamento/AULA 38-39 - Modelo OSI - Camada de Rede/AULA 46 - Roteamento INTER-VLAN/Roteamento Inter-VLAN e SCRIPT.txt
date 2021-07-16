@@ -1,0 +1,92 @@
+Roteamento Inter-VLAN
+
+    Objetivo:
+
+    -Fornecer comunicação entre dispositivos que estão em VLAN diferentes
+    -Para se realizar o roteamento Inter-VLAN é necessário um dispositivos de camada 3, como um Roteador ou um Switch L3
+
+Existem três modalidade de roteamento Inter-VLAN:
+
+    -Roteamento Inter-VLAN Legacy: Utiliza uma interface do roteador para cada VLAN da rede, não mais usada por ser cara
+    -Roteamento Router-on-Stick:Utiliza uma única interface que suporta todas as VLAN, utiliza também interfaces virtuais/subinterfaces 
+    -Roteamento com Switch L3 utilizando subinterface: Com a subinterfaces, é possível criar diversas interfaces virtuais utilizando uma única interface física
+
+
+Script: 
+
+RT-01
+
+enable
+configure terminal
+hostname RT-01
+ip domain-name hyrule.local
+enable secret 3force20
+username linkdoti privilege 15 secret masterkey86
+banner motd "ACESSO APENAS PARA PESSOAS AUTORIZADAS!"
+crypto key generate rsa general-keys modulus 1024
+line vty 0 15 
+transport input ssh
+login local
+exit
+line console 0
+login local
+exit
+interface g0/0
+no shutdown
+interface g0/0.30
+encapsulation dot1q 30
+ip address 172.16.0.1 255.255.255.224
+interface g0/0.40
+encapsulation dot1q 40
+ip address 172.16.0.33 255.255.255.240
+do wr
+
+SW-01
+
+enable
+configure terminal
+hostname SW-01
+ip domain-name hyrule.local
+enable secret 3force20
+username linkdoti privilege 15 secret masterkey86
+banner motd "ACESSO APENAS PARA PESSOAS AUTORIZADAS!"
+crypto key generate rsa general-keys modulus 1024
+line vty 0 15 
+transport input ssh
+login local
+exit
+line console 0
+login local
+exit
+vlan 30
+name USUARIOS
+vlan 40
+name SERVIDORES
+vlan 90
+name GERENCIAMENTO
+interface fa0/1
+switchport mode access 
+switchport access vlan 30
+interface fa0/2
+switchport mode access 
+switchport access vlan 30
+interface fa0/20
+switchport mode access 
+switchport access vlan 40
+interface fa0/24
+switchport mode access
+switchport access vlan 90
+interface g0/1
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan 30,40,99
+interface vlan 90
+ip address 172.16.1.254 255.255.255.0
+no shutdown
+interface range fa0/3-19
+shutdown
+interface range fa0/21-23
+shutdown
+interface g0/2
+shutdown
+do wr
