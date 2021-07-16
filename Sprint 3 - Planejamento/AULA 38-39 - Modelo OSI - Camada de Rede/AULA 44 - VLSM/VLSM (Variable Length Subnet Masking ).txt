@@ -1,0 +1,24 @@
+VLSM (Variable Length Subnet Masking )
+    -Dividir as sub-redes em outras sub-redes, cada uma com o tamnho necessário
+    -(Variable Length Subnet Masking), ou seja, Sub-Redes de Tamanhos Variáveis.
+
+vantagens 
+    Menos desperdício de endereços IPs. É possível fazer uso mais eficiente da divisão de sub-redes alocando mascaras de sub-redes diferentes a cada bloco;
+    Maior flexibilidade na distribuição de endereços. É possível redimensionar sub-redes dentro de uma sub-rede calculada. Quando houver uma alteração na topologia da rede não é necessário alterar o endereçamento de toda a rede;
+    Possibilidade de sumarização de rotas (agregação de rotas):  É possível você sumarizar diversas rotas em um único endereço de rede com máscara específica, diminuindo assim o tamanho das tabelas de roteamento. 
+
+Detalhamento de uma VLSM
+    Nesta rede, teremos 256 endereços IP, com range de 192.168.0.0 até 192.168.0.255, neste momento, vamos desconsiderar os IPs de rede (192.168.0.0) e o endereço de broadcast (192.168.0.255)
+    Se eu dividir esta rede em 4 partes, teríamos 256/4= 64 IPs, onde teremos as seguinte sub-redes:
+    192.168.0.0/26, sendo a primeira sub-rede, pertencente a rede global 192.168.0.0/24
+    Nesta primeira sub-rede, teremos a seguinte faixa de endereços IPs, de 192.168.0.0 até 192.168.0.63, ou seja, serão 64 endereços IPs no total.
+    A visão deste resumo, é que podemos subdividir uma determinada rede em diversas pequenas sub-redes, com o objetivo de organizar e administrar células de nossas redes de forma lógica e parametrizada.
+
+A lógica de uma  VLSM
+    Esta é uma forma lógica de dividirmos as sub-redes, pois formas físicas, utilizam outros conceitos, além de criar estas subdivisões.
+    Os cálculos vão muito além deste exemplo simples, pois temos algumas formas, equações e formato de cálculos para chegarmos a estes entendimentos, mas não é com um simples artigo que faremos este aprendizado.
+    Esta prática é muito comum em redes roteadas, onde temos roteadores que podem se comunicar apenas, um com o outro, sendo, dois equipamentos em cada enlace. Neste caso, a sub-rede será 192.168.0.0/30, com faixa de IPs de 192.168.0.0 até 192.168.0.3. O objetivo desta separação lógica, é fazer com que, os endereços IPs se comuniquem de forma objetiva, tendo parâmetros baseados em tabelas, sejam pela ARP ou pela tabela MAC. Mas, sem complicar mais este exemplo, como no último caso, teremos 4 endereços IPs, porém, nos equipamentos, eu poderia utilizar apenas o endereço IP 192.168.0.1 e o IP 192.168.0.2. O IP address, 192.168.0.0, representa o endereço desta sub-rede, sendo representado por número de bits como /30, ou seja, 30 bits desta rede, estão definindo esta faixa de endereços, conhecida como range. Neste momento, teremos como utilizar 2 endereços, dos 4 disponíveis a este sub-rede.
+    Se calcularmos a próxima sub-rede, então encontraremos:
+    192.168.0.4/30, sendo a segunda sub-rede, pertencente a rede global 192.168.0.0/24, pois a faixa de IPs será de 192.168.0.4 a 192.168.0.7, onde, os IPs 192.168.5 e 192.168.6, poderão ser utilizados em equipamentos.
+    Ainda é possível, segmentar estas sub-redes de formas variáveis, tal como, ter redes de tamanhos diferentes dentro da mesma rede global.
+
