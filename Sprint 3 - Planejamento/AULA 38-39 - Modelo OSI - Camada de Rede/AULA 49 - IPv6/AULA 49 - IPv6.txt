@@ -1,0 +1,54 @@
+IPv6
+    surgiu o IPv6, porque o IPv4 está acabando, depois que países como a África, Ásia e outras áreas do mundo passaram a se conectar na Internet
+    128 bits - metade para rede e a outra para host 64/64
+
+Coexistência do IPv4 com o IPv6
+    técnicas ou junção das duas versões do IP, pois o IPv4 não acabou 100% e o IPv6 ainda não é usado por todo mundo
+
+tipos de técnicas: 
+    Pilha dupla - permite que as duas versões de IP coexistam na mesma rede
+    Tunelamento - método de transporte de pacote IPv6 atráves de uma rede IPv4, o pacote é encapsulado dentro de um pacote IPv4 ( pacote IPv6 e a rede Ipv4)
+    Conversão - Pega uma rede IPv6 e configura em um protoco para converter para IPv4, possibilitando que eles se conversem 
+
+O IPv6 é composto por números e letras
+
+hexadecimal vai de 0 a f
+
+0,1,2,3,4,5,6,7,8,9,10,a,b,c,d,e,f
+
+Regra 1 - omitir zeros à esquerda
+
+exemplos: 
+01AB pode ser representado como 1AB
+09f0 pode ser representado como 9f0
+0a00 pode ser representado como a00
+00ab pode ser representado como ab
+
+Regra 2 - dois pontos duplos
+
+exemplo:
+2001:db8:cafe:1:0:0:0:1
+fica:
+2001:db8:cafe:1::1
+
+OBS: só pode se os 0 estiver contínuo, ou seja, um do lado do outro
+OBS: só pode usar essa regra de :: uma vez por IP 
+
+Exemplo: 2001:db8:0:100:0:0:0:1
+
+o correto a ficar seria: 2001:db8:0:100::1
+o errado seria: 2001:db8::100::1   
+
+Por que ficaria errado? 
+porque não teria como identificar quantos 0 tem em cada espaço de ponto
+
+OBS: IP de Loopback é pingar o próprio computador 
+
+Global Unicast
+    IPv6 que pode usar para a internet equivalente aos IPs públicos do IPv4
+    vai de 2001 até 3FFF o acesso a internet
+
+IPv6 Link Local Address (LLA)
+    Acesso interno equivalente ao IP interno, caso queria se conversar com pessoas da sua rede 
+    vai de FE80::/10 até FEBF::/10
+

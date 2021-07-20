@@ -1,0 +1,30 @@
+Modelo OSI – Camada de Transporte
+    -Responsável por estabelecer uma sessão de comunicação temporária entre duas aplicações e fornecer dados entre elas.
+
+Responsabilidades da Camada de Transporte
+    -Segmenta os dados, ela divide os dados por pastas 
+    -rastrear as conversas para saber se chegou inteira ou se corrompeu 
+    -identificação das aplicações
+
+Protocolos da Camada de Transporte
+    -TCP:protocolo mais lento, porém tem a confirmação de envio e recebimento 
+    -UDP:protocolo mais rápido, porém não tem confirmação de recebimento 
+
+O Protocolo para cada aplicação
+    -TCP:Email e HTTP
+    -UDP:Telefonia IP e Transmissão de vídeo ao vivo
+
+Endereçamento de Portas
+    -A porta identifica o endereço de rede 
+    HTTP:80
+    DNS:53
+    FTP:21 
+OBS: O Firewall que identifica a porta  
+
+Existem três tipos de porta:
+
+    -portas bem conhecidadas: que são reservadas para serviços e aplicações, geralmente usadas para navegadores WEB, clients de email ou acesso remoto (0 á 1023)
+    -portas registradas: que são aplicações individuais, geralmente as empresas compra as porta para as suas aplicações (1024 a 49151)
+    -portas dinâmicas: cada um pode usar (49152 a 655535)
+
+
