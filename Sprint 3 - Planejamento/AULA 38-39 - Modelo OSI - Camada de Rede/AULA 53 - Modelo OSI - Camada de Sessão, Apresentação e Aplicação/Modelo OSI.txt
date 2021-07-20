@@ -1,0 +1,16 @@
+Modelo OSI – Aplicação, Apresentação e Sessão
+
+camada de apresentação tem três funções principais:
+    -Formatar ou apresentar dados no dispositivo de origem em um formato compatível para recebimento pelo dispositivo de destino.
+    -Comprimir dados de uma maneira que possa ser descompactada pelo dispositivo de destino.
+    -Criptografar dados para transmissão e descriptografar dados após o recebimento.
+camada de sessão:
+    -função dela é estabelecer um diálogo entre as aplicações de origem e destino 
+camada de aplicação:
+    -aplicações que usamos, serviços de rede 
+
+
+
+
+
+
