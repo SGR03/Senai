@@ -1,0 +1,15 @@
+Uma das facilidades de se trabalhar com Virtualização é transformar sua VM totalmente funcional em um arquivo único, o qual pode ser reutilizável em diversos programas de virtualização; nessa aula vamos aprender a como criar esses arquivos, exportar e importar eles para o Virtualbox
+
+SOFTWARES:
+Virtualbox 5.2 - https://download.virtualbox.org/virtualbox/5.2.44/VirtualBox-5.2.44-139111-Win.exe
+ISO do Debian 10 - https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-10.6.0-i386-netinst.iso
+VM p/ as aulas - https://drive.google.com/file/d/1JknBtc8rviMvWQwVZruUBM3wPbIS4wHN/view?usp=sharing
+Github da Turma - https://github.com/lj237/ct-redes
+
+EXPORTANDO UMA VM [VIRTUALBOX]
+
+https://youtu.be/ttdW92MTd5c
+
+IMPORTANDO UMA VM [VIRTUALBOX]
+
+https://youtu.be/ke56tO9135g

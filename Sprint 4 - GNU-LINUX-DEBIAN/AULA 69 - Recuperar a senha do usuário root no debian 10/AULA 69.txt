@@ -1,0 +1,5 @@
+Na aula de hoje vamos aprender como recuperar a senha do usuário Root.
+Isso é muito útil em situações onde precisamos administrar um servidor, porém não sabemos a senha ou por algum motivo não lembramos da mesma.
+
+Como redefinir a senha de root esquecida no Debian 10
+https://www.tecmint.com/reset-forgotten-root-password-in-debian/

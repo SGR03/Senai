@@ -1,0 +1,22 @@
+Na aula de hoje vamos utilizar o servidor Debian 10 e o serviço de SSH para transferir arquivos da VM Debian para o nosso computador Windows.
+
+Vamos utilizar o protocolo SFTP (SSH File Transfer Protocol), protocolo esse que utiliza o SSH para transferência de arquivos.
+
+CAPACIDADES:
+
+SISTEMAS COMPUTACIONAIS
+6. Executar procedimentos de atualização de software, considerando as suas características técnicas.
+7. Executar procedimentos de atualização de serviços de rede, considerando as suas características técnicas.
+10. Identificar características de um sistema operacional, tendo em vista sua configuração e a configuração de serviços.
+11. Identificar a compatibilidade entre comandos e sistemas operacionais, considerando suas características.
+12. Identificar a aplicabilidade dos diferentes sistemas operacionais.
+13. Acessar o sistema operacional, tendo em vista sua configuração.
+
+FTP, FTPS e SFTP o que são e para o que servem
+https://meunegocio.uol.com.br/blog/ftp-ftps-e-sftp-o-que-sao-e-para-o-que-servem/#rmcl
+
+Utilizando o WINSCP para transferir um arquivo do debian 
+https://youtu.be/lYJeTvvBxhA
+
+WinSCP – Transferir ficheiros entre Windows e Linux
+https://pplware.sapo.pt/software/winscp-transferir-ficheiros-entre-windows-linux-fcil/

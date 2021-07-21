@@ -1,0 +1,42 @@
+Na aula de hoje vamos aprender a como configurar as interfaces de rede no Debian.
+
+Vamos aprender a manipular as informações sobre as interfaces de rede utilizando os editores de texto visto na aula anterior (NANO e VIM), também aprenderemos comandos para nos auxiliar a identificar algumas informações sobre a rede utilizada pelo nosso sistema GNU/Linux
+
+Comandos que aprenderemos:
+ifdown
+ifup
+ip addr flush dev
+systemctl
+dhclient
+
+Criar uma regra ICMP de entreda 
+https://docs.microsoft.com/pt-br/windows/security/threat-protection/windows-firewall/create-an-inbound-icmp-rule
+
+
+Tutorial como configurar uma interface de rede com IP Estático no Linux
+
+Passo 1 - Entre no arquivo de configuração das interface
+    
+    nano /etc/network/interfaces
+
+Passo 2 - Edite o arquivo de configuração para as configuração necessárias
+
+    auto [nome-da-interface]
+    iface [nome-da-interface] inet static
+    address [endereco-ip]/[máscara]
+
+    Exemplo:
+    
+    auto enp0s3
+    iface enp0s3 inet static
+    address 192.168.0.10/24
+
+Passo 3 - Salve o arquivo de configuração com o comando Ctrl+O e saia do nano com o comando Ctrl+X
+
+Passo 4 - Reinicie o serviço de rede do Debian
+
+    systemctrl restart networking
+
+Passo 5 - Verifique se o IP foi alterado
+
+    ip add

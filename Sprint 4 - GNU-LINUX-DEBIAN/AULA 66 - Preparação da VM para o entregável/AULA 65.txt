@@ -1,0 +1,7 @@
+Na aula de hoje vamos preparar a VM que será utilizada para se realizar o entregável da Sprint 7.
+
+Vamos colocar duas interfaces nessa: uma NAT (para fornecer acesso a Internet) e outra Host-Only (para efetuar a comunicação com o nosso computador Windows).
+Após as configurações necessárias, vamos criar um Snapshot, para prevenir qualquer tipo de problema com essa nossa VM.
+
+Montando VM-debian para o entregável 
+https://www.youtube.com/watch?v=Wmg7anL3Fdo

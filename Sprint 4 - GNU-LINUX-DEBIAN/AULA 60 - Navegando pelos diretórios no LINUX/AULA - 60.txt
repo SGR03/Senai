@@ -1,0 +1,21 @@
+Na aula de hoje vamos começar a usar efetivamente o Debian.
+
+Vamos entender a estrutura de diretório do GNU/Linux, para que serve cada pasta do GNU/Linux, quais arquivos podemos manipular nessas pastas?
+Vamos também aprender como navegar no GNU/Linux, como entro em uma pasta? Como saiu de uma pasta e vou diretamente para outra pasta? Como verificar o conteúdo de uma pasta de e exibir as informações de um conteúdo dentro dela?
+
+Comandos que aprenderemos:
+man
+cd
+ls
+pwd
+cat
+tac
+clear
+apt install
+tree
+touch
+su -
+reboot
+shutdown
+whoami
+

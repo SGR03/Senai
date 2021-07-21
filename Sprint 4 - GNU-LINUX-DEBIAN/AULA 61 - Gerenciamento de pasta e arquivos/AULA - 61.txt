@@ -1,0 +1,13 @@
+Na aula de hoje vamos aprender como gerenciar arquivos e pastas no Debian.
+
+Vamos criar pastas e subpastas, criar arquivos dentro dessas pastas.
+Iremos aprender comandos para copiar, recortar e colocar arquivos e pastas, bem como renomear e exibir o conteúdo dos arquivos criados.
+
+Comandos que aprenderemos:
+mkdir
+rm
+cp
+mv
+find
+grep
+tail

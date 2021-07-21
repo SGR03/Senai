@@ -1,0 +1,54 @@
+Na aula de hoje vamos aprender a configurar o serviço de SSH em um servidor Debian 10.
+
+Vamos instalar o serviço e configurar para liberar o acesso via SSH apenas para um Usuário e/ou Grupo específico, trazendo mais segurança e flexibilidade no momento em que vamos configurar nosso sistema.
+Vamos aprender a inicia, reiniciar e parar um serviço de rede utilizando o Systemd, programa responsável por gerenciar os serviços no Debian 10.
+
+Você deve entregar um print de tela utilizando o Putty e acessando a máquina Debian via SSH.
+
+***********************************************************************
+Tutorial para instalar e configurar o OpenSSH Server no Debian 10
+
+    Passo 1 - Instalar o OpenSSH Server
+        apt update
+        apt install openssh-server
+
+    Passo 2 - Verifique se o serviço do OpenSSH está ativo e funcional
+        systemctl status ssh
+
+    Teste o acesso ao servidor, utilizando o CMD ou o Putty, lembrando que é necessário que o seu computador esteja na mesma rede que a VM Debian.
+____________________________________________________________________________________________________________________________________________________________________
+
+Caso você queria liberar o acesso a usuário(s) específico, siga o seguintes passos:
+
+    Passo 1 - Abre o arquivo /etc/ssh/sshd_config com um editor de texto
+        nano /etc/ssh/sshd_config
+    
+    Passo 2 - Insira a seguinte informação 'AllowUsers [nome-do-usuário]', de preferência na última linha do arquivo
+
+    Passo 3 - Salve o arquivo e saia do editor de texto
+
+    Passo 4 - Reinicie o serviço de ssh
+        systemctl restart ssh
+    
+    Teste o acesso ao servidor, utilizando o CMD ou o Putty, lembrando que é necessário que o seu computador esteja na mesma rede que a VM Debian.
+
+    Lembrando que para liberar acesso para mais de um grupo, deve-se colocar a lista de usuários separados por vírgula.
+        Exemplo: AllowUsers lucas danilo
+____________________________________________________________________________________________________________________________________________________________________
+
+Caso você queria liberar o acesso a grupo(s) específico, siga o seguintes passos:
+
+    Passo 1 - Abre o arquivo /etc/ssh/sshd_config com um editor de texto
+        nano /etc/ssh/sshd_config
+    
+    Passo 2 - Insira a seguinte informação 'AllowGroups [nome-do-grupo', de preferência na última linha do arquivo
+
+    Passo 3 - Salve o arquivo e saia do editor de texto
+
+    Passo 4 - Reinicie o serviço de ssh
+        systemctl restart ssh
+    
+    Teste o acesso ao servidor, utilizando o CMD ou o Putty, lembrando que é necessário que o seu computador esteja na mesma rede que a VM Debian.
+
+    Lembrando que para liberar acesso para mais de um grupo, deve-se colocar a lista de grupos separados por vírgula.
+        Exemplo: AllowGroups ti suporte

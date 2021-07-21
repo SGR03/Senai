@@ -1,0 +1,16 @@
+Na aula de hoje vamos aprender a como fornecer permissão de acesso a arquivos e pastas no Linux.
+
+Criaremos a estrutura de diretórios do SENAI Informática e a estrutura de usuários e grupos da aula anterior, para realizar as liberações necessárias para que os usuários consigam: criar, modificar e navegar através das pastas as quais ele tem permissão.
+
+Comandos que aprenderemos:
+chmod
+chown
+chgrp
+
+esqueça o chmod777
+
+https://pplware.sapo.pt/linux/esqueca-o-chmod-777-aprenda-a-definir-permissoes-em-linux/
+
+entendendo o comando chmod 
+
+https://www.vivaolinux.com.br/artigo/Entendento-o-comando-chmod?pagina=1

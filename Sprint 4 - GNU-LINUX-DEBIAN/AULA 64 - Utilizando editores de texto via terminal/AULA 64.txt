@@ -1,0 +1,15 @@
+Na aula de hoje vamos aprender como utilizar os editores de texto dentro do terminal.
+
+Vamos utilizar os editores NANO e VIM, ver as principais diferenças entre eles, quais vantagens e desvantagens que tempos ao utilizar um dos dois.
+
+Conheça e aprenda a usar o VIM 
+https://canaltech.com.br/linux/conheca-e-aprenda-a-usar-o-editor-vim-no-linux/#:~:text=Abrir%20um%20arquivo%20de%20textos,de%20textos%2C%20digite%20%3Aq.
+
+Começando com o VIM 
+https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/
+
+O editor de texto NANO 
+https://terminalroot.com.br/2015/10/o-editor-de-texto-nano.html
+
+Como instalar e usar o editor de texto NANO
+https://www.hostinger.com.br/tutoriais/como-instalar-editor-de-texto-nano/

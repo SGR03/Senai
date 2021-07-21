@@ -1,0 +1,20 @@
+Na aula de hoje vamos aprender a como criar usuários e inserir esses usuários em grupos no Linux. Isso se faz útil quando necessitamos administrar de uma maneira fácil e organizada os usuários que vão utilizar nosso sistemas.
+
+Vamos aprender onde ficam armazenados os usuários e grupos dentro do sistema operacional e a importância de conhecermos esses caminhos.
+
+Comandos que aprenderemos:
+adduser
+deluser
+addgroup
+delgroup
+passwd
+
+CAPACIDADES:
+
+SISTEMAS COMPUTACIONAIS
+6. Executar procedimentos de atualização de software, considerando as suas características técnicas;
+7. Executar procedimentos de atualização de serviços de rede, considerando as suas características técnicas;
+12. Identificar a aplicabilidade dos diferentes sistemas operacionais;
+13. Acessar o sistema operacional, tendo em vista sua configuração;
+14. Realizar as atividades em sistemas operacionais de código fechado e de código aberto;
+15. Administrar sistemas operacionais de código aberto e de código fechado.

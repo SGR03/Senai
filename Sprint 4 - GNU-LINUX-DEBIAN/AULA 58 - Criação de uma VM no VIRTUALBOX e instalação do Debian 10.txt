@@ -1,0 +1,7 @@
+Na aula de hoje vamos aprender como criar uma máquina virtual utilizando o Oracle Virtualbox.
+
+Vamos utilizando essa VM para efetuar a instalação do Debian 10. Para isso fiz um vídeo mostrando como efetuar esses procedimentos passo-a-passo.
+
+CRIANDO UMA VM E INSTALANDO O DEBIAN 
+
+https://youtu.be/qNMpsO8VLnw
